@@ -35,7 +35,7 @@ echo "Concluido"
 
 #Criando pastas necessarias
 echo "Criando Pastas"
-mkdir ${layer_0} ${layer_1} ${layer_2} ${layer_3} ${layer_4} ${layer_5}
+mkdir ${layer_0} ${layer_1} ${layer_2} ${layer_3} ${layer_4}
 cd ${layer_4}
 mkdir ${layer_4_1} ${layer_4_2} 
 cd ..
