@@ -12,14 +12,12 @@ layer_3="3-Domain"
 layer_4="4-Infra"
 layer_4_1="4.1-Data"
 layer_4_2="4.2-CrossCutting"
-layer_5="5-Global"
 
 #Nome dos Sub-Projetos
 project_presentation=${Project_Name}".MVC"
 project_application=${Project_Name}".application"
 project_domain=${Project_Name}".Domain"
 project_data=${Project_Name}".Infra.Data"
-project_global=${Project_Name}".Global"
 
 #Nome das pastas dos sub-Projetos
 entities="Entities"
@@ -44,14 +42,6 @@ cd ..
 echo "Concluido"
 
 #Criando camadas
-echo "Criando camada ${layer_5}"
-cd ${layer_5}
-dotnet new classlib -lang C# -o ${project_global}
-cd ${project_global}
-rm Class1.cs
-cd ../../
-dotnet sln ${Project_Name}.sln add ./${layer_5}/${project_global}
-echo "Concluido"
 
 echo "Criando camada ${layer_0}"
 cd ${layer_0}
@@ -92,11 +82,4 @@ rm Class1.cs
 mkdir ${contexto} ${repositories}
 cd ../../../
 dotnet sln ${Project_Name}.sln add ./${layer_4}/${layer_4_1}/${project_data}
-echo "Concluido"
-
-#referenciando a camada global
-echo "Criando referencias"
-cd ${layer_5}/${project_global}
-dotnet add reference ../../${layer_3}/${project_domain}/${project_domain}.csproj
-dotnet add reference ../../${layer_2}/${project_application}/${project_application}.csproj
 echo "Concluido"
