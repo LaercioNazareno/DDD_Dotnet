@@ -55,7 +55,6 @@ cd ${layer_2}
 dotnet new classlib -lang C# -o ${project_application}
 cd ${project_application}
 rm Class1.cs
-dotnet add reference ../../${layer_5}/${project_global}/${project_global}.csproj
 cd ../../
 dotnet sln ${Project_Name}.sln add ./${layer_2}/${project_application}
 echo "Concluido"
@@ -67,7 +66,6 @@ cd ${project_domain}
 rm Class1.cs
 mkdir ${entities} ${interfaces} ${services}
 dotnet add reference ../../${layer_2}/${project_application}/${project_application}.csproj
-dotnet add reference ../../${layer_5}/${project_global}/${project_global}.csproj
 cd ../../
 dotnet sln ${Project_Name}.sln add ./${layer_3}/${project_domain}
 echo "Concluido"
@@ -77,7 +75,6 @@ cd ${layer_4}/${layer_4_1}
 dotnet new classlib -lang C# -o ${project_data}
 cd ${project_data}
 dotnet add reference ../../../${layer_3}/${project_domain}/${project_domain}.csproj
-dotnet add reference ../../../${layer_5}/${project_global}/${project_global}.csproj
 rm Class1.cs
 mkdir ${contexto} ${repositories}
 cd ../../../
