@@ -65,6 +65,8 @@ dotnet new classlib -lang C# -o ${project_domain}
 cd ${project_domain}
 rm Class1.cs
 mkdir ${entities} ${interfaces} ${services}
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.0.7
+dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet add reference ../../${layer_2}/${project_application}/${project_application}.csproj
 cd ../../
 dotnet sln ${Project_Name}.sln add ./${layer_3}/${project_domain}
@@ -76,7 +78,11 @@ dotnet new classlib -lang C# -o ${project_data}
 cd ${project_data}
 dotnet add reference ../../../${layer_3}/${project_domain}/${project_domain}.csproj
 rm Class1.cs
-mkdir ${contexto} ${repositories}
+mkdir ${contexto} ${repositories} ${entity_config}
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.0.7
+dotnet add package Microsoft.EntityFrameworkCore.Design
 cd ../../../
 dotnet sln ${Project_Name}.sln add ./${layer_4}/${layer_4_1}/${project_data}
 echo "Concluido"
+
+#Referencias externas

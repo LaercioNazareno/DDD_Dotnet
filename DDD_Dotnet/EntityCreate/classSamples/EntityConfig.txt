@@ -1,0 +1,14 @@
+using IMPORT_MODELS;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+namespace NAMESPACE
+{
+    public class CLASSNAME: IEntityTypeConfiguration<ENTITY_TYPE>
+    {
+        public void Configure(EntityTypeBuilder<ENTITY_TYPE> builder)
+        {
+            
+        }
+    }
+}
