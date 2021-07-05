@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "VQUMIaanVTsQU2Fi1AyF6W8oIUYHI74cb3AtoebAjad2owMCO5KjP5SMO0tC8oKnu2IGBolf1HKdUWVvIRk6kA==",
+  "success": true,
+  "projectFilePath": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/DDD_Dotnet.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/laercio/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/home/laercio/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/laercio/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -8,7 +8,7 @@ namespace DDD_Dotnet.Infra.Data.EntityConfig
     {
         public void Configure(EntityTypeBuilder<Produto> builder)
         {
-            builder.HasKey(x => x.Id);
+            
         }
     }
 }

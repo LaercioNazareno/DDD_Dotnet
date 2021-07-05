@@ -1,0 +1,9 @@
+using IMPORT_MODELS;
+
+namespace NAMESPACE
+{
+    public interface IENTITY_TYPERepository : IRepositoryBase<ENTITY_TYPE>
+    {
+        
+    }
+}

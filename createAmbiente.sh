@@ -15,7 +15,7 @@ layer_4_2="4.2-CrossCutting"
 
 #Nome dos Sub-Projetos
 project_presentation=${Project_Name}".MVC"
-project_application=${Project_Name}".application"
+project_application=${Project_Name}".Application"
 project_domain=${Project_Name}".Domain"
 project_data=${Project_Name}".Infra.Data"
 
@@ -55,6 +55,9 @@ cd ${layer_2}
 dotnet new classlib -lang C# -o ${project_application}
 cd ${project_application}
 rm Class1.cs
+mkdir mapper
+dotnet add package AutoMapper
+mkdir DTO
 cd ../../
 dotnet sln ${Project_Name}.sln add ./${layer_2}/${project_application}
 echo "Concluido"

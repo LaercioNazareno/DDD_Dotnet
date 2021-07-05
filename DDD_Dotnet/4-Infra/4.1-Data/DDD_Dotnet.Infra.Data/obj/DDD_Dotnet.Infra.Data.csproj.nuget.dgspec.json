@@ -4,14 +4,14 @@
     "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/4-Infra/4.1-Data/DDD_Dotnet.Infra.Data/DDD_Dotnet.Infra.Data.csproj": {}
   },
   "projects": {
-    "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.application/DDD_Dotnet.application.csproj": {
+    "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/DDD_Dotnet.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.application/DDD_Dotnet.application.csproj",
-        "projectName": "DDD_Dotnet.application",
-        "projectPath": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.application/DDD_Dotnet.application.csproj",
+        "projectUniqueName": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/DDD_Dotnet.Application.csproj",
+        "projectName": "DDD_Dotnet.Application",
+        "projectPath": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/DDD_Dotnet.Application.csproj",
         "packagesPath": "/home/laercio/.nuget/packages/",
-        "outputPath": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.application/obj/",
+        "outputPath": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/laercio/.nuget/NuGet/NuGet.Config"
@@ -78,8 +78,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.application/DDD_Dotnet.application.csproj": {
-                "projectPath": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.application/DDD_Dotnet.application.csproj"
+              "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/DDD_Dotnet.Application.csproj": {
+                "projectPath": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/DDD_Dotnet.Application.csproj"
               }
             }
           }
@@ -100,13 +100,9 @@
               "target": "Package",
               "version": "[5.0.7, )"
             },
-            "MySql.Data.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.22, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.7, )"
             }
           },
           "imports": [
@@ -167,18 +163,12 @@
           "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.7, )"
-            },
-            "MySql.Data.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.22, )"
             }
           },
           "imports": [

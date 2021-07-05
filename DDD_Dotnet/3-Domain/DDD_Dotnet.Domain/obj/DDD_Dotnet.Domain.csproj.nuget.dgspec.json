@@ -4,14 +4,14 @@
     "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/3-Domain/DDD_Dotnet.Domain/DDD_Dotnet.Domain.csproj": {}
   },
   "projects": {
-    "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.application/DDD_Dotnet.application.csproj": {
+    "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/3-Domain/DDD_Dotnet.Domain/DDD_Dotnet.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.application/DDD_Dotnet.application.csproj",
-        "projectName": "DDD_Dotnet.application",
-        "projectPath": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.application/DDD_Dotnet.application.csproj",
+        "projectUniqueName": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/3-Domain/DDD_Dotnet.Domain/DDD_Dotnet.Domain.csproj",
+        "projectName": "DDD_Dotnet.Domain",
+        "projectPath": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/3-Domain/DDD_Dotnet.Domain/DDD_Dotnet.Domain.csproj",
         "packagesPath": "/home/laercio/.nuget/packages/",
-        "outputPath": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.application/obj/",
+        "outputPath": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/3-Domain/DDD_Dotnet.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/laercio/.nuget/NuGet/NuGet.Config"
@@ -37,76 +37,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/3-Domain/DDD_Dotnet.Domain/DDD_Dotnet.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/3-Domain/DDD_Dotnet.Domain/DDD_Dotnet.Domain.csproj",
-        "projectName": "DDD_Dotnet.Domain",
-        "projectPath": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/3-Domain/DDD_Dotnet.Domain/DDD_Dotnet.Domain.csproj",
-        "packagesPath": "/home/laercio/.nuget/packages/",
-        "outputPath": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/3-Domain/DDD_Dotnet.Domain/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/laercio/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.application/DDD_Dotnet.application.csproj": {
-                "projectPath": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.application/DDD_Dotnet.application.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.7, )"
             },
-            "MySql.Data.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.22, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.7, )"
             }
           },
           "imports": [

@@ -1,0 +1,13 @@
+using IMPORT_CONTXT;
+using IMPORT_MODELS;
+using IMPORT_INTERFACE_REPOSITORY;
+
+namespace NAMESPACE
+{
+    public class CLASSNAME : RepositoryBase<ENTITY_TYPE>, IENTITY_TYPERepository
+    {
+        public CLASSNAME(Context context) : base(context)
+        {
+        }
+    }
+}

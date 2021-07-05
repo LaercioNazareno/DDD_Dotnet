@@ -1,0 +1,12 @@
+using AutoMapper;
+
+namespace NAMESPACE
+{
+    public class MappingProfile: Profile
+    {
+        public MappingProfile()
+        {
+            
+        }
+    }
+}
