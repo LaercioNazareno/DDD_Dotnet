@@ -1,0 +1,19 @@
+using System.Collections.Generic;
+using System.Linq;
+using IMPORT_MODELS;
+using IMPORT_INTERFACE_SERVICE;
+using IMPORT_INTERFACE_REPOSITORY;
+
+namespace NAMESPACE
+{
+    public class CLASSNAME : ServiceBase<ENTITY_TYPE>, ICLASSNAME
+    {
+        private readonly IENTITY_TYPERepository _ENTITY_TYPERepository;
+
+        public CLASSNAME(IClienteRepository ENTITY_TYPERepository)
+            : base(ENTITY_TYPERepository)
+        {
+            _ENTITY_TYPERepository = ENTITY_TYPERepository;
+        }
+    }
+}

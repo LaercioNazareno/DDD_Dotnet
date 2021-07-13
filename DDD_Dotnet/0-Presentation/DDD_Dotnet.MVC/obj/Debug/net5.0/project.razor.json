@@ -15629,11 +15629,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/0-Presentation/DDD_Dotnet.MVC/Views/Cliente/Privacy.cshtml",
-      "TargetPath": "Views\\Cliente\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/0-Presentation/DDD_Dotnet.MVC/Views/Cliente/Index.cshtml",
       "TargetPath": "Views\\Cliente\\Index.cshtml",
       "FileKind": "mvc"

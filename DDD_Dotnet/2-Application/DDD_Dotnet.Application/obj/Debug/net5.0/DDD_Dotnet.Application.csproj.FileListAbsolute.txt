@@ -1,0 +1,15 @@
+/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/bin/Debug/net5.0/DDD_Dotnet.Application.deps.json
+/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/bin/Debug/net5.0/DDD_Dotnet.Application.dll
+/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/bin/Debug/net5.0/ref/DDD_Dotnet.Application.dll
+/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/bin/Debug/net5.0/DDD_Dotnet.Application.pdb
+/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/bin/Debug/net5.0/DDD_Dotnet.Domain.dll
+/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/bin/Debug/net5.0/DDD_Dotnet.Domain.pdb
+/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/obj/Debug/net5.0/DDD_Dotnet.Application.csproj.AssemblyReference.cache
+/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/obj/Debug/net5.0/DDD_Dotnet.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/obj/Debug/net5.0/DDD_Dotnet.Application.AssemblyInfoInputs.cache
+/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/obj/Debug/net5.0/DDD_Dotnet.Application.AssemblyInfo.cs
+/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/obj/Debug/net5.0/DDD_Dotnet.Application.csproj.CoreCompileInputs.cache
+/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/obj/Debug/net5.0/DDD_Dotnet.Application.csproj.CopyComplete
+/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/obj/Debug/net5.0/DDD_Dotnet.Application.dll
+/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/obj/Debug/net5.0/ref/DDD_Dotnet.Application.dll
+/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/2-Application/DDD_Dotnet.Application/obj/Debug/net5.0/DDD_Dotnet.Application.pdb

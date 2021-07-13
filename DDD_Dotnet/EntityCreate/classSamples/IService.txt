@@ -1,0 +1,8 @@
+using IMPORT_MODELS;
+namespace NAMESPACE
+{
+    public interface CLASSNAME: IServiceBase<ENTITY_TYPE>
+    {
+        
+    }
+}

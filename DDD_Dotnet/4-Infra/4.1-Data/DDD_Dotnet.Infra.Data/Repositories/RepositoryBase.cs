@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
 using DDD_Dotnet.Infra.Data.Contexto;
-using DDD_Dotnet.Domain.Interfaces;
+using DDD_Dotnet.Domain.Interfaces.Repositories;
 
 namespace DDD_Dotnet.Infra.Data.Repositories
 {

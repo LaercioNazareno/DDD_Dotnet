@@ -2,6 +2,15 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\2-Application\DDD_Dotnet.Application\DDD_Dotnet.Application.csproj" />
+    <ProjectReference Include="..\..\4-Infra\4.2-CrossCutting\IoC\IoC.csproj" />
+    <ProjectReference Include="..\..\4-Infra\4.1-Data\DDD_Dotnet.Infra.Data\DDD_Dotnet.Infra.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="5.0.3.1" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.1" />
   </ItemGroup>
 
   <PropertyGroup>

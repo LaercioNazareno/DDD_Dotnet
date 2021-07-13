@@ -32,6 +32,16 @@
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
         }
+      },
+      "DDD_Dotnet.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DDD_Dotnet.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DDD_Dotnet.Domain.dll": {}
+        }
       }
     }
   },
@@ -174,11 +184,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DDD_Dotnet.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../3-Domain/DDD_Dotnet.Domain/DDD_Dotnet.Domain.csproj",
+      "msbuildProject": "../../3-Domain/DDD_Dotnet.Domain/DDD_Dotnet.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "AutoMapper >= 10.1.1"
+      "AutoMapper >= 10.1.1",
+      "DDD_Dotnet.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -205,7 +221,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/3-Domain/DDD_Dotnet.Domain/DDD_Dotnet.Domain.csproj": {
+              "projectPath": "/home/laercio/Projetos/DDD/DDD_Dotnet/DDD_Dotnet/3-Domain/DDD_Dotnet.Domain/DDD_Dotnet.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

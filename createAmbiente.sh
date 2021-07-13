@@ -68,8 +68,6 @@ dotnet new classlib -lang C# -o ${project_domain}
 cd ${project_domain}
 rm Class1.cs
 mkdir ${entities} ${interfaces} ${services}
-dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.0.7
-dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet add reference ../../${layer_2}/${project_application}/${project_application}.csproj
 cd ../../
 dotnet sln ${Project_Name}.sln add ./${layer_3}/${project_domain}

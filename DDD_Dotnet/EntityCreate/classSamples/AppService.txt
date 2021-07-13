@@ -1,0 +1,9 @@
+using IMPORT_INTERFACE_APP_SERVICE;
+
+namespace NAMESPACE
+{
+    public class CLASSNAME: ICLASSNAME
+    {
+        
+    }
+}
